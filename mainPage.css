@@ -1,0 +1,463 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#main_container{
+    width:100%;
+    height:745px;
+    border:2px solid black;
+}
+
+#head{
+    width: 100%;
+    height:100px;
+    border: 2px solid yellow;
+    background-color: #f2f2f2;
+    
+}
+#logo{
+    width:30%;
+    height:100%;
+    border:2px solid green;
+    float:left;
+}
+#login-signup-container{
+    width:70%;
+    height:100%;
+    float:right;
+    border:2px solid black;
+    padding-top:30px;
+}
+#login-content{
+    width:70%;
+    height:40px;
+    float:right;
+/*    border: 1px solid red;*/
+    
+}
+#form{
+    width:80%;
+/*    border-right: 1px solid green;*/
+    float:left;
+}
+.lg-pwd-text{ 
+/*    text-align: center;*/
+    width:37%;
+    height:33px;
+    margin-right: 5px;
+    padding:0 8px;
+    border:1px solid lightgray;
+/*    transition-duration: 0.4s;*/
+    border-radius: 3px;
+    
+}
+.lg-pwd-text:focus{
+    border:1px solid cornflowerblue;
+}
+.login-button{
+     width:12%;
+    height:33px;
+    background-color: cornflowerblue;
+    color:white;
+    border:none;
+    cursor: pointer;
+    
+}
+/*button */
+.signup{ 
+    width:14%;
+    height:33px;
+    background-color: #f2f2f2;
+    color:cornflowerblue;
+    border: 2px solid cornflowerblue;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 2px;
+}
+.signup:hover{
+    background-color: cornflowerblue;
+    color:white;
+}
+
+#container{
+    width:100%;
+    height:550px;
+    border:2px solid red;
+}
+
+#content{
+    width:78%;
+    height:100%;
+    border: 1px solid gray;
+    margin:0 auto 0 auto;
+    
+}
+
+#content-head{
+    width:100%;
+    height:40px;
+    background-color: bisque;
+/*    border-bottom: 1px solid green;*/
+    text-align: center;
+    
+}
+#content-head ul{
+    float:center;
+}
+#content-head li{
+    float:left;
+    list-style-type: none;
+/*    margin-right:px;*/
+}
+
+#content-head a{
+    display:block;
+    text-decoration: none;
+    float:left;
+    width:100px;
+    height:40px;
+    text-align: center;
+    font-family:monospace;
+    font-size: 18px;
+    padding-top:8px;
+    cursor: pointer;    
+    margin:0 15px;
+    border-bottom:2px solid bisque;
+    transition-duration: 0.3s;
+}
+
+#content-head a:hover{
+    border-bottom:2px solid cornflowerblue; 
+/*    border-width: 80px;*/
+    
+}
+
+
+/*Category start here*/
+
+#category-div{
+    width:100%;
+    height:500px;
+    background-color: white;
+    box-sizing: border-box;
+    text-align: center;
+    display:block;
+    border: 1px solid white;
+}
+#category-content{
+    width:100%;
+    height:370px;
+/*    border: 1px solid blue;*/
+/*    padding-left:17px;*/
+    margin-top:50px;
+}
+/*
+#category-div ul{
+    margin-top: 50px;
+
+}*/
+#category-div li{
+    float:left;
+    list-style-type: none;
+    text-align: center;
+}
+.categ{
+    width:175px;
+    height:160px;
+    margin:10px;
+    background-color: darkslategray;
+    color:white;
+    float:left;
+/*    border: 1px solid darkslategray;*/
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 14px;
+    padding-top:40px;
+    text-decoration: none;    
+}
+
+/*Feedback*/
+
+#feedback-div{
+    width:100%;
+    height:505px;
+/*    border: 1px solid red;*/
+    background-color:white;
+    box-sizing: border-box;
+/*    text-align: center;*/
+    display:none;
+}
+#feedback-content{
+    width: 60%;
+    height:185px;
+/*    border: 1px solid green;*/
+    margin-top:0px;
+    margin-left: 40px;
+}
+#feedback-div p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color:darkslategray;
+    
+}
+#textarea{
+    resize: none;
+    width: 100%;
+    height:110px;
+    border:1px solid lightgray;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding:8px 15px;
+    float:left;
+    margin: 17px 0 15px 0;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+#textarea:focus{
+    border: 1px solid cornflowerblue;
+}
+.feedback-submit{
+    width:20%;
+    height:30px;
+    background-color: cornflowerblue;
+    border:none;
+    margin-left: 25px;
+    border:1px solid cornflowerblue;
+    border-radius: 2px;
+    color:white;
+    cursor: pointer;
+}
+.feedback-submit:hover{
+    background-color: dodgerblue;
+}
+
+#about-div{
+    width:100%;
+    height:505px;
+/*    border: 1px solid red;*/
+    background-color:white;
+    box-sizing: border-box;
+    text-align: center;
+    display:none;
+}
+
+/*For SignUp Modal  */
+
+            .modal{
+                position:fixed;
+                padding-top:70px;
+                width:100%;
+                height:100%;
+                margin:auto;
+                border:2px solid red;
+                background-color: rbg(0,0,0);
+                background-color: rgba(0,0,0,.6);
+                display:none;
+                z-index: 1;
+                top:0;
+                left: 0;
+                
+            }
+
+            .modal-content{
+                width:25%;
+                height:460px;
+                margin:auto;
+                background-color: white;
+                border:1px solid black;
+                border-radius: 5px;
+                top:-100px;
+                animation: drop 650ms ease forwards;
+                
+            }
+            @keyframes drop{
+                0%{ opacity:0; }
+                70%{transform:translateY(20px);}
+                100%{ transform:translateY(20px); opacity: 1;}
+            }
+
+
+            .close{
+                float:right;
+                cursor:pointer;
+                font-size: 30px;
+                font-weight: 800;
+                margin-right: 15px;
+            }
+            #btn{
+                width:100px;
+                height:50px;
+            }
+            .modal-content h2{
+                font-family: sans-serif;
+                font-size: 18px;
+                color:darkslategray;
+                text-align: center;
+                margin-top: 40px;
+            }
+            #myForm{
+                width:75%;
+                margin-top:30px;
+                text-align: center;
+/*                border: 1px solid blue;*/
+                margin:25px auto 0px auto;
+                
+            }
+            .inputfield{
+                width:100%;
+                height:33px;
+/*                margin:12px 0;*/
+                padding:2px 10px;
+                font-family: sans-serif;
+                font-size: 14px;
+                border:1px solid gray;
+                border-radius: 3px;
+            }
+                .inputfield:focus{
+                    border:1px solid cornflowerblue;
+                }
+            .signupb{
+                width:100%;
+                height:30px;
+                margin:12px 0 20px 0;
+                background-color: darkslategray;
+                border:none;
+                color:white;
+                cursor: pointer;
+                border:1px solid black;
+                border-radius: 3px;
+            }
+            .modal-content p{
+                font-family: sans-serif;
+                font-size: 13px;
+                color:darkslategray;
+            }
+            .modal-content a{
+
+                font-family: sans-serif;
+                font-size: 14px;
+                color:#609cec;
+                text-decoration: none;
+                transition-duration: 0.4s;
+            }
+            .modal-content a:hover{
+                text-decoration: underline;
+                text-decoration-color: #609cec
+            }
+
+.modal-content p{
+    font-family: sans-serif;
+    font-size: 12px;
+    color:white;
+    margin: 0 0 10px 10px;
+    float:left;
+/*    display: none;*/
+}
+
+/*SignUp Modal End */
+
+
+
+
+/*
+.dd{
+    width:10px;
+    height:2px;
+    background-color: green;
+    position: relative;
+    animation-name: slide;
+    animation-duration:2s;
+    float:left;
+    display:block;
+    background-color: cornflowerblue;
+}
+*/
+
+
+/*
+@keyframes slide {
+    0%   {background-color:cornflowerblue; left:0px; top:0px;}
+    100% {background-color:cornflowerblue; left:920px; top:0px;}
+*/
+
+/*categories page start here*/
+
+#categories{
+    width:100%;
+    height:645px;
+/*    border: 2px solid red;*/
+/*    background-color: black;*/
+}
+#categories-content{
+    width:80%;
+    height:565px;
+    border: 1px solid green;
+    margin-left: 10%;
+} 
+#categories-content-head{
+    width:100%;
+    height:50px;
+    background-color: darkseagreen;
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+/*    box-shadow: 0px 0px 10px 0px lightgray;*/
+}
+#categories-content-head p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color:white;
+    float:left;
+    margin-left:20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+#categories-content-body{
+    width:100%;
+    height:520px;
+    border:3px solid blue;
+}
+#categories-content-body ul{
+   width:100%;
+    height:520px;
+/*    border: 1px solid red;*/
+    padding:10px 10px 10px 20px;
+}
+
+#categories-content-body li{
+    width:160px;
+    height:100px;
+/*    border:1px solid green;*/
+    list-style-type: none;
+ /*   display: inline-block;*/
+    float: left;
+    margin:5px;
+    
+}
+#categories-content-body a{
+    width:160px;
+    height:100px;
+    border:1px solid lightgray;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding-top:20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-style: italic;
+    border-radius: 3px;
+}
+#categories-content-body a:hover{
+    background-color: #1ABC9C;
+    color:white;
+}
+
+
+
+
+
+
+
+/*categories page end here*/
