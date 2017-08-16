@@ -100,7 +100,7 @@
                         <ul>
                             <?php foreach($fetch_result as $s): ?>
                             <li>
-                                <a style="color:black;" href="<?php print_r($s['link']); ?>" target="_blank"><?php print_r($s['Name'] );?></a>
+                                <a href="<?php echo($s['link']); ?>" target="_blank"><img src="<?php echo($s["Name"]);?>" width="175" height="96" ></a> 
                             </li>
                             <?php endforeach; ?>
                         </ul>

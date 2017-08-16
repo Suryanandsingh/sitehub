@@ -426,7 +426,7 @@
 }
 
 #categories-content-body li{
-    width:160px;
+    width:180px;
     height:100px;
 /*    border:1px solid green;*/
     list-style-type: none;
@@ -436,18 +436,19 @@
     
 }
 #categories-content-body a{
-    width:160px;
+    width:180px;
     height:100px;
     border:1px solid lightgray;
     display: block;
     text-decoration: none;
     text-align: center;
-    padding-top:20px;
+/*    padding-top:20px;*/
     font-family: sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
     font-style: italic;
     border-radius: 3px;
+    transition-duration: 0.4s;
 }
 #categories-content-body a:hover{
     background-color: #1ABC9C;

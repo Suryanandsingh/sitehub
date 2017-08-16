@@ -109,12 +109,12 @@
                                         <a class="categ" href="categories.php?id=Hospital" >Hospital</a>
                                     </li>
                                     <li>
-					<a class="categ" href="categories.php?id=School" >School</a>                                        
+					<a class="categ" href="categories.php?id=Entertainment" >Entertainment</a>                                        
                                     <li>
                                         <a class="categ" href="categories.php?id=Educational" >Educational</a>
                                     </li>
                                     <li>
-                                        <a class="categ" href="#" >Category7</a>
+                                        <a class="categ" href="categories.php?id=Banking" >Banking</a>
                                     </li>
                                     <li>
                                         <a class="categ" href="#" >Category8</a>
